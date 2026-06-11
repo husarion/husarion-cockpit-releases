@@ -14,7 +14,7 @@ On the robot, as root:
 
 ```bash
 curl -L -o /tmp/setup.tar.gz \
-    https://github.com/husarion/husarion-cockpit-releases/releases/download/deploy-rosbot-xl%2Fv0.7.1/husarion-rosbot-xl-deploy-0.7.1.tar.gz
+    https://github.com/husarion/husarion-cockpit-releases/releases/download/deploy-rosbot-xl%2Fv0.8.0/husarion-rosbot-xl-deploy-0.8.0.tar.gz
 mkdir -p /opt/husarion-rosbot-xl && cd /opt/husarion-rosbot-xl
 tar xzf /tmp/setup.tar.gz --strip-components=1
 sudo ./install.sh
